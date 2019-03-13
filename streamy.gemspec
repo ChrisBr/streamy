@@ -39,6 +39,6 @@ Gem::Specification.new do |spec| # rubocop:disable Metrics/BlockLength
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "ruby-kafka", "~> 0.6"
 
-  spec.add_dependency "activesupport", "~> 5.2"
+  spec.add_dependency "activesupport", ">= 5.2"
   spec.add_dependency "webmock", "~> 3.3"
 end
